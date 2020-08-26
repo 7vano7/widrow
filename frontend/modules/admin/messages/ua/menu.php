@@ -1,0 +1,25 @@
+<?php
+return [
+    'ID'=>'ID',
+    'Status'=>'Статус',
+    'Menu Name'=>'Назва',
+    'Menu name'=>'Назва',
+    'Lang'=>'Мова',
+    'Active'=>'Активний',
+    'Disable'=>'Неактивний',
+    'active'=>'Активний',
+    'disable'=>'Неактивний',
+    'Parent name'=>'Головне меню',
+    'Create menu'=>'Створити меню',
+    'Select language'=>'Виберіть мову',
+    'Select menu'=>'Виберіть меню',
+    'Select status'=>'Виберіть статус',
+    'Update menu' => 'Редагувати меню',
+    'Input name'=>'Введіть назву',
+    'Add lang'=>'Додати мову',
+    'Del lang'=>'Видалити мову',
+    'Url'=>'Url',
+    'Input text'=>'Введіть текст',
+    'Image'=>'Зображення',
+
+];

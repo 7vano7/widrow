@@ -1,0 +1,22 @@
+<?php
+return [
+    'Status'=>'Status',
+    'Url'=>'Url',
+    'Title'=>'Title',
+    'Active'=>'Active',
+    'active'=>'Active',
+    'Disable'=>'Disable',
+    'disable'=>'Disable',
+    'Select language'=>'Select language',
+    'Language'=>'Language',
+    'Lang'=>'Language',
+    'Content'=>'Content',
+    'Create static page'=>'Create static page',
+    'Add lang'=>'Add language',
+    'Del lang'=>'Delete language',
+    'Input title'=>'Input title',
+    'Select status'=>'Select status',
+    'Input url'=>'Input url',
+    'Input text'=>'Input text',
+    'Update static'=>'Update зфпу',
+];

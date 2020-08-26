@@ -1,0 +1,192 @@
+.clear-bg{
+    background: #d2d6de;
+}
+.clear-form-box{
+    width: 360px;
+    margin: 7% auto;
+}
+.clear-form-box-body{
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.terms-box {
+    width: 700px;
+    margin: 7% auto;
+}
+.terms-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.logout{
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 14px;
+    position: relative;
+    display: block;
+    padding: 18px 15px;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    outline-offset: -2px;
+}
+.logout:hover, .logout:focus, .logout:active{
+    background: rgba(0,0,0,0.1);
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+
+.rbac-menu {
+    float: left;
+    width: 15%;
+    vertical-align: middle;
+    font-size:1.1em;
+    /*margin-top: 1%;*/
+}
+
+.rbac-table td {
+    padding-bottom:7%;
+    border-bottom: 1px solid grey;
+}
+
+
+.assignment-index {
+    float: right;
+    width: 83%;
+}
+
+.rbac-table a:hover {
+   color: #112a95;
+}
+.page-header{
+    margin: 0 0 10px 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+#btn-back {
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+
+.flag-icon{
+    margin: 3px 3px 0 0;
+}
+.sidebar-menu > li > a > .fa, .sidebar-menu > li > a > .glyphicon, .sidebar-menu > li > a > .ion,
+.sidebar-menu > li > ul > li > a > .fa{
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.register-box {
+    width: 80%;
+}
+
+.required label:after {
+    content: "*";
+    color: red;
+}
+
+.border-block {
+   margin-top:1%;
+    margin-bottom: 1%;
+
+}
+
+
+#switch-user-form{
+
+}
+#switch-user-form .switch-user-input{
+    padding-right: 0;
+}
+#switch-user-form .switch-user-button{
+    padding-left: 0;
+}
+#switch-user-form .switch-user-button button{
+    border-radius: 0;
+    width: 100%;
+}
+.navbar-nav > li > a > i{
+    line-height: 20px;
+}
+.timeline .timeline-footer .time{
+    font-size: 13px;
+    line-height: 13px;
+    color: #999;
+}
+.timeline .timeline-item .status{
+    float: right;
+    padding: 7px;
+}
+.timeline .timeline-header .from-username{
+    font-weight: 600;
+    color: #3c8dbc;
+    text-decoration: none;
+}
+
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+#external-events {
+    max-height: 500px;
+    overflow:auto;
+}
+
+#content-event {
+    margin-top: 10px;
+}
+
+.langs {
+    margin-top:10px;
+}
+
+.list-menu {
+    padding-left: 10px;
+}
+
+.access-buttons .btn
+{
+    margin-right: 5px;
+}
+
+.button-inline {
+   margin-bottom: 10px;
+
+}
+
+.add-language {
+    margin:10px 0;
+    padding: 2%;
+    border: 1px solid #cbd4da;
+    border-radius: 5px;
+    background-color: #fffef5;
+}
+
+.down {
+    padding-top: 10px;
+}
+
+.buttom-button {
+    margin-bottom:10px;
+}
+
+#del {
+    display: none;
+    position: fixed;
+    vertical-align: center;
+    left: 80%;
+    bottom:65%;
+}
+
+
+

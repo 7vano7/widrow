@@ -1,0 +1,22 @@
+<?php
+return [
+    'Status'=>'Статус',
+    'Url'=>'Алиас',
+    'Title'=>'Название',
+    'Active'=>'Активен',
+    'active'=>'Активен',
+    'Disable'=>'Не активен',
+    'disable'=>'Не активен',
+    'Select language'=>'Виберите язык',
+    'Language'=>'Язык',
+    'Lang'=>'Язык',
+    'Content'=>'Контент',
+    'Create static page'=>'Создать страницу',
+    'Add lang'=>'Добавить язык',
+    'Del lang'=>'Удалить язык',
+    'Input title'=>'Введите название',
+    'Select status'=>'Виберите статус',
+    'Input url'=>'Введите url',
+    'Input text'=>'Введите текст',
+    'Update static'=>'Редактировать страницу',
+];

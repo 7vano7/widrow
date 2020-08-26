@@ -2,11 +2,6 @@
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-<<<<<<< HEAD
-=======
-use yii\bootstrap\NavBar;
-use yii\bootstrap\Nav;
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
 
 /**
  * @var $menu array
@@ -77,10 +72,6 @@ use yii\bootstrap\Nav;
                                     </li>
                                 </ul>
                             <?php endif ?>
-<<<<<<< HEAD
-=======
-
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                         </li>
                     <?php endforeach ?>
                 <?php endif ?>

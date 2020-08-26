@@ -13,21 +13,13 @@ return [
     'controllerNamespace' => 'console\controllers',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-<<<<<<< HEAD
         '@npm' => '@vendor/npm-asset',
-=======
-        '@npm'   => '@vendor/npm-asset',
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
     ],
     'controllerMap' => [
         'fixture' => [
             'class' => 'yii\console\controllers\FixtureController',
             'namespace' => 'common\fixtures',
-<<<<<<< HEAD
         ],
-=======
-          ],
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
     ],
     'components' => [
         'log' => [
@@ -38,7 +30,6 @@ return [
                 ],
             ],
         ],
-<<<<<<< HEAD
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=150356',
@@ -46,8 +37,6 @@ return [
             'password' => 'cnfhjcnf2007',
             'charset' => 'utf8mb4',
         ],
-=======
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
     ],
     'modules' => [
         'gii' => 'yii\gii\Module',

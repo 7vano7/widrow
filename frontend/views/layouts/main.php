@@ -43,13 +43,7 @@ IAsset::register($this);
             </div>
             <div class="col-sm-3">
                 <div class="footer-lang">
-
-
-<<<<<<< HEAD
                     <?php $language = Yii::$app->language === 'uk' ? 'ua' : (Yii::$app->language === 'en' ? 'us' : Yii::$app->language) ?>
-=======
-                    <?php $language = Yii::$app->language == 'uk' ? 'ua' : (Yii::$app->language == 'en' ? 'us' : Yii::$app->language) ?>
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                     <?php echo Html::a('<span class="flag-icon flag-icon-' . $language . '"></span><span>'
                         . Yii::$app->language . '</span>', '/'.$language . Yii::$app->getRequest()->getLangUrl()
                     ) ?>

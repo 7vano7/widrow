@@ -128,7 +128,6 @@ class YoutubeController extends Controller
                 Yii::$app->session->setFlash('saved', Yii::t('admin', 'record saved'));
                 return $this->redirect('index');
             }
-            echo "<pre>";print_r($model);die;
         }
         return $this->render('create', [
             'model' => $model,

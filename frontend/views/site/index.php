@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-use frontend\components\LanguageViewWidget;
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
 use yii\helpers\Html;
 use yii\helpers\Url;
 
@@ -27,11 +23,8 @@ use yii\helpers\Url;
                                 type='video/webm; codecs="vp8, vorbis"'>
                     </video>
                 <?php else: ?>
-<<<<<<< HEAD
+
                     <img src="<?php echo Yii::getAlias('@web') . $main->staticPage->file ?>" alt="image"
-=======
-                    <img src="<?php echo Yii::getAlias('@web') . $main->staticPage->file ?>"
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                          style="width: 100px; margin: 10px">
                 <?php endif ?>
             <?php endif ?>
@@ -56,21 +49,13 @@ use yii\helpers\Url;
                                 <?php $count = count($item['articles']); ?>
                                 <?php for ($i = 0; $i < $count; $i += 4): ?>
                                     <li data-target="<?php echo $item['label'] . 'Carousel' ?>"
-<<<<<<< HEAD
                                         data-slide-to="<?= $i ?>" class="<?= $i % 4 === 0 ? 'active' : '' ?>"></li>
-=======
-                                        data-slide-to="<?= $i ?>" class="<?= $i % 4 == 0 ? 'active' : '' ?>"></li>
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                                 <?php endfor; ?>
                             </ol>
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner row">
                                 <?php for ($i = 0; $i < $count; $i++): ?>
-<<<<<<< HEAD
                                     <div class="item <?= $i === 0 ? 'active' : '' ?>">
-=======
-                                    <div class="item <?= $i == 0 ? 'active' : '' ?>">
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                                         <ul class="thumbnails">
                                             <li class="col-sm-3 slide-1">
                                                 <div class="thumbnail">
@@ -168,21 +153,14 @@ use yii\helpers\Url;
                                 <?php $count = count($videos['articles']); ?>
                                 <?php for ($i = 0; $i < $count; $i += 4): ?>
                                     <li data-target="<?php echo $videos['label'] . 'Carousel' ?>"
-<<<<<<< HEAD
+
                                         data-slide-to="<?= $i ?>" class="<?= $i % 4 === 0 ? 'active' : '' ?>"></li>
-=======
-                                        data-slide-to="<?= $i ?>" class="<?= $i % 4 == 0 ? 'active' : '' ?>"></li>
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                                 <?php endfor; ?>
                             </ol>
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner row">
                                 <?php for ($i = 0; $i < $count; $i++): ?>
-<<<<<<< HEAD
                                     <div class="item <?= $i === 0 ? 'active' : '' ?>">
-=======
-                                    <div class="item <?= $i == 0 ? 'active' : '' ?>">
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
                                         <ul class="thumbnails">
                                             <li class="col-sm-2 slide-1">
                                                 <div class="thumbnail">

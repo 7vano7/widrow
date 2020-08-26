@@ -20,10 +20,7 @@ return [
     ],
     'components' => [
         'request' => [
-<<<<<<< HEAD
             'baseUrl'=>'',
-=======
->>>>>>> 994e9fc5fa172c448007b8308705f1b7058d3c97
             'csrfParam' => '_csrf-frontend',
             'cookieValidationKey'=>'rfrfsafhyyumvbxbrshgydhtg',
             'class' => 'frontend\components\LanguageRequest'

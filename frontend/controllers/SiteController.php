@@ -94,7 +94,7 @@ class SiteController extends HeadController
     public function actionIndex()
     {
 //        $this->setMetaData(Yii::t('site', 'FSLU'), Yii::t('head', 'MainDesc'), Yii::t('head', 'MainCont'));
-        $this->getUserLanguage();
+//        $this->getUserLanguage();
 //        echo "<pre>";print_r($lang);die;
         $main = StaticPageTranslation::find()->joinWith(['staticPage'])->where([
             'static_page.position'=>StaticPage::POSITION_MAIN,
@@ -143,7 +143,7 @@ class SiteController extends HeadController
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
-        $this->getUserLanguage();
+//        $this->getUserLanguage();
         setcookie('login_now', 'login_now', time()+300);
         $this->setMetaData(Yii::t('head', 'Login'), Yii::t('head', 'LoginDesc'),Yii::t('head', 'LoginCont'));
         $model = new LoginForm();
@@ -233,7 +233,7 @@ class SiteController extends HeadController
      */
     public function actionSignup()
     {
-        $this->getUserLanguage();
+//        $this->getUserLanguage();
         setcookie('sign_now', 'sign_now', time()+300);
         $this->setMetaData(Yii::t('head', 'Sign'), Yii::t('head', 'SignDesc'), Yii::t('head', 'SignCont'));
         $model = new SignupForm();

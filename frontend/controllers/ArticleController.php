@@ -39,7 +39,7 @@ class ArticleController extends HeadController
      */
     public function actionView($alias)
     {
-        $this->getUserLanguage();
+//        $this->getUserLanguage();
 //        $this->setMetaData(Yii::t('site', 'FSLU'), Yii::t('head', 'MainDesc'), Yii::t('head', 'MainCont'));
         if (!$alias) {
             throw new NotFoundHttpException(Yii::t('site', 'The requested page does not exist.'));

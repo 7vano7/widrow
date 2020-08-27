@@ -1,10 +1,14 @@
 <?php
 namespace frontend\components;
 
-use Yii;
+use yii\base\InvalidConfigException;
 use yii\web\Request;
 use frontend\models\Language;
 
+/**
+ * Class LanguageRequest
+ * @package frontend\components
+ */
 class LanguageRequest extends Request
 {
     private $_lang_url;
@@ -16,14 +20,24 @@ class LanguageRequest extends Request
 
             $url_list = explode('/', $this->_lang_url);
 
-            $lang_url = isset($url_list[1]) ? $url_list[1] : null;
-
-            Language::setCurrent($lang_url);
-            if( $lang_url !== null && $lang_url === Language::getCurrent()->iso_code &&
-                strpos($this->_lang_url, Language::getCurrent()->iso_code) === 1 )
-            {
-                $this->_lang_url = substr($this->_lang_url, strlen(Language::getCurrent()->iso_code)+1);
+            $lang_url = (isset($url_list[1]) && !empty($url_list[1])) ? $url_list[1] : null;
+            if($lang_url && strlen($lang_url) > 3) {
+                $lang_url = null;
+            } elseif($lang_url !== null) {
+                Language::setCurrent($lang_url);
+                if($lang_url === Language::getCurrent()->iso_code &&
+                    strpos($this->_lang_url, Language::getCurrent()->iso_code) === 1 )
+                {
+                    $this->_lang_url = substr($this->_lang_url, strlen(Language::getCurrent()->iso_code)+1);
+                }
             }
+//            Language::setCurrent($lang_url);
+//            if( $lang_url !== null && $lang_url === Language::getCurrent()->iso_code &&
+//                strpos($this->_lang_url, Language::getCurrent()->iso_code) === 1 )
+//            {
+//                echo'ok';die;
+//                $this->_lang_url = substr($this->_lang_url, strlen(Language::getCurrent()->iso_code)+1);
+//            }
         }
         return $this->_lang_url;
     }

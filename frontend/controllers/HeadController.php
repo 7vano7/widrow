@@ -3,8 +3,8 @@ namespace frontend\controllers;
 
 use common\models\Language;
 use yii\web\Controller;
-use yii\helpers\Html;
 use Yii;
+
 Class HeadController extends Controller
 {
 
